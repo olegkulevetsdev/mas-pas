@@ -1,0 +1,24 @@
+.inside .container {
+    display: flex;
+    flex-direction: row;
+}
+
+.inside .container .item {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inside .container .item #select_field {
+    width: 300px;
+}
+
+.inside .container .item .error {
+    border: 2px solid red;
+    box-shadow: unset;
+}
+
+.inside .container .item .success {
+    border: 2px solid green;
+    box-shadow: unset;
+}
